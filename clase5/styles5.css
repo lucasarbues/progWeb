@@ -1,0 +1,28 @@
+*{
+    font-family: "Qwitcher Grypen", cursive;
+    font-style: italic;
+    font-weight: 900;
+    font-variant: lowercase;
+}
+
+#caja1{
+    border: 1px solid burlywood;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+#caja2{
+    margin: 10px 20px 20px 10px; /*top right bottom left*/
+    border: solid red;
+    border-width: 1px 2px 2px 1px ; 
+}
+
+#image_responsive{
+    width: 25%;
+    border: 1px solid red;
+    display:block;
+}
+
+li{
+    display: inline; /*elementos de la lista sobre la misma linea*/
+}
