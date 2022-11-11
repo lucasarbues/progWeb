@@ -1,0 +1,24 @@
+[
+    { 
+        "equipo": "spurs",
+        "imagen": "./imagenes/spurs.webp",
+        "tickets": "https://www.hellotickets.com/us/san-antonio/sports/san-antonio-spurs-tickets/125308?tap_a=111360-a078dd&tap_s=2012950-01cb3f&msg=ticket&gclid=Cj0KCQiAmaibBhCAARIsAKUlaKT4kCYqZ4z80MvhMHMaovjo3jBZtIC6YbSOdM8XzNWIs7mNtDpSHroaAoVXEALw_wcB" ,
+        "calendario": "https://www.nba.com/spurs/schedule",
+        "stats": "https://www.basketball-reference.com/teams/SAS/2023.html"
+    },
+    
+    { "equipo": "okc",
+    "imagen": "./imagenes/okc.png",
+    "tickets": "https://www.hellotickets.com.ar/estados-unidos/oklahoma-city/deportes/entradas-oklahoma-city-thunder/138670?tap_a=111360-a078dd&tap_s=2012950-01cb3f&msg=ticket&gclid=Cj0KCQiAmaibBhCAARIsAKUlaKRpSEAZTsejAcgKDt_CpX32jsBU2k38eAFQ4B03TvP2aYuBdLeb1KUaAjHUEALw_wcB",
+    "calendario": "https://www.nba.com/thunder/schedule" ,
+    "stats": "https://www.basketball-reference.com/teams/OKC/2023.html"
+    },
+    
+    { "equipo": "lakers",
+    "imagen": "./imagenes/lakers.jpeg",
+    "tickets": "https://www.hellotickets.com.ar/estados-unidos/los-angeles/deportes/entradas-los-angeles-lakers/1234",
+    "calendario": "https://www.nba.com/lakers/schedule",
+    "stats": "https://www.basketball-reference.com/teams/LAL/2023.html"
+    }
+    
+]
