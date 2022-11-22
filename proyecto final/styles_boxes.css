@@ -1,0 +1,169 @@
+*{    font-family: 'Jersey M54', sans-serif;}
+
+
+
+
+.caja{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 25px ;
+    display: none; /* Hidden by default */
+
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+  }
+
+.equipos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.title{
+    color: brown;
+
+}
+
+
+.imagen-equipo{
+    height: 450px;
+    position: relative;
+}
+
+.imagen-equipo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detalle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+}
+
+.type a{
+    color: #222222;
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+
+}
+
+
+.type span{
+    color: rgba(26, 26, 26, 0.5);
+}
+
+.price{
+    color: #333333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 119, 145, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-1{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+}
+
+.boton-1:hover{
+    color: white;
+    background-color: palevioletred;
+    transition: all ease 0.3s;
+}
+
+.overlay{
+    visibility: hidden;
+}
+.imagen-equipo:hover .overlay{
+    visibility: visible;
+    animation: fade 0.5s;
+}
+
+#headerbuttons{
+    color: black;
+    font-size: 25px;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    width: 130px;
+    transition: 0.7s;
+
+}
+
+
+#headerbutns:hover{
+    color: rgb(172, 163, 163);
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }}
+\
